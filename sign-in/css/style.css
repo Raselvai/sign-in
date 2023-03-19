@@ -1,0 +1,180 @@
+/*======================
+   01. Google fonts
+========================*/
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,700&display=swap');
+
+/*======================
+   02. Basic css
+========================*/
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+strong,
+i,
+ol,
+ul,
+li,
+form,
+label,
+footer,
+header,
+menu,
+nav,
+section {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	line-height: 26px;
+	background: #ffffff;
+	color: #fff;
+	font-family: 'Poppins', sans-serif;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+button:focus, input:focus, textarea:focus {
+	outline: 0;
+}
+
+
+.sign-wrapper {
+	width: 100%;
+	height: 100vh;
+	background: #F3F3FF;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sign-box {
+	background: #F3F3FF;
+	width: 330px;
+	padding: 30px;
+	box-shadow: 0px 0px 20px 15px #DCE6F6;
+	border-radius: 10px;
+}
+
+.sign-box i {
+	color: #065FF0;
+	font-size: 40px;
+}
+
+.sign-box h3 {
+	color: #065FF0;
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 24px;
+	margin: 10px 0;
+}
+
+.sign-box form {
+	background: #FAFBFD;
+	padding: 20px;
+	border-radius: 20px;
+	box-shadow: 0px 0px 20px 15px #DCE6F6;
+}
+
+.sign-box form label {
+	color: #065FF0;
+	font-size: 15px;
+	font-weight: 500;
+	margin: 20px 0 10px 15px;
+	line-height: 17px;
+}
+
+.sign-box input {
+	width: 100%;
+	height: 45px;
+	border-radius: 30px;
+	padding-left: 20px;
+	border: transparent;
+	background: #EEF5FF;
+	box-shadow: inset 0 0 10px rgb(38 39 39 / 26%);
+	font-size: 13px;
+	color: #000000;
+	border: 2px solid transparent;
+}
+
+.sign-box input:focus {
+	border: 2px solid #065FF0;
+}
+
+.sign-box input:placeholder {
+	color: rgb(38 39 39 / 40%);
+}
+
+.login-btn {
+	width: 100%;
+	height: 47px;
+	border: 2px solid #065FF0;
+	border-radius: 50px;
+	background: transparent;
+	color: #065FF0;
+	font-size: 16px;
+	font-weight: 500;
+	margin-top: 40px;
+	box-shadow: 0px 0px 17px 7px #DCE6F6;
+	transition: .3s;
+}
+
+.login-btn:hover {
+	background: #065FF0;
+	color: #ffffff;
+}
+
+.forgot-pass {
+	font-size: 15px;
+	display: block;
+	text-align: center;
+	font-weight: 500;
+	margin-top: 20px;
+	transition: .3s;
+	color: #065FF0;
+}
+
+.forgot-pass:hover {
+	text-decoration: underline;
+	color: #065FF0;
+}
+
+.create-btn {
+	width: 85%;
+	height: 47px;
+	background: #065FF0;
+	color: #ffffff;
+	font-size: 16px;
+	font-weight: 500;
+	box-shadow: 0px 0px 17px 7px #DCE6F6;
+	border-radius: 50px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border: 2px solid transparent;
+	margin: 30px auto auto auto;
+	transition: .3s;
+}
+
+.create-btn:hover {
+	background: transparent;
+	color: #065FF0;
+	border: 2px solid #065FF0;
+}
+
